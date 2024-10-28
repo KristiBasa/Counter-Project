@@ -1,0 +1,50 @@
+body {
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: rgba(0, 0, 0, 0.75);
+  margin-top: 0;
+}
+
+#counterContainer {
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 5px;
+  max-width: 400px;
+  text-align: center;
+  padding: 20px;
+}
+
+#value {
+  color: grey;
+  margin: 20px;
+  text-align: center;
+  font-size: 3em;
+}
+
+.buttons {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
+  background-color: rgb(108, 129, 226);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+#resetBtn:hover {
+  background-color: rgb(64, 92, 217);
+}
+
+#decreaseBtn:hover {
+  background-color: red;
+}
+
+#increaseBtn:hover {
+  background-color: green;
+}
